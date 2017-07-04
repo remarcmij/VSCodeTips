@@ -115,7 +115,7 @@ If your JavaScript program is contained in a single file the easiest way to run 
 
 3. Next you will prompted to select an environment. Choose `Node.js`. This produces a JSON file, displayed in a new editor tab with a contents as shown below.
 
-	```json
+	```
 	{
     // Use IntelliSense to learn about possible Node.js debug attributes.
     // Hover to view descriptions of existing attributes.
