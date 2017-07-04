@@ -101,10 +101,61 @@ Here are some short-cut commands that I use many times a day and that I recommen
 
 - **Open a terminal window**. We already covered this when we mentioned the **View**, **Integrated Terminal** menu command.
 
-## Running and debugging your code with Node
+## Running and debugging your code with the VSCode Node debugger
 
-To be added.
+If your JavaScript program is contained in a single file the easiest way to run and examine your code is the start straight in VSCode. Before you can run it you need to do a small preparation. This needs to be done only once per project folder.
 
+1. As illustrated in the figure below, press the **Debug** button in the left margin as indicated by the red triangle.
 
+	![debug_1](https://user-images.githubusercontent.com/2788771/27833250-393c5a82-60d2-11e7-8713-648ec54abbed.png)
 
+2. You'll see the Debugger Pane in the left hand side of the screen as shown below. Press the "cog" button as indicated by the red triangle. 
 
+	![debug_2](https://user-images.githubusercontent.com/2788771/27833256-3d44da32-60d2-11e7-8f34-0bc0579a10c3.png)
+
+3. Next you will prompted to select an environment. Choose `Node.js`. This produces a JSON file, displayed in a new editor tab with a contents as shown below.
+
+	```json
+	{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	    "version": "0.2.0",
+	    "configurations": [
+	        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${file}"
+	        }
+	    ]
+	}
+	```
+
+	At this his time no changes are necessary to this file. You can just close the editor tab.
+	
+4. Next, press the **Explorer** button in the left margin as indicated by the red triangle in the figure below.
+
+	![debug_3](https://user-images.githubusercontent.com/2788771/27833921-189a16f4-60d5-11e7-87ee-996cf97921ac.png)
+	
+5. Observe that VSCode has created a `.vscode` subfolder in your project folder where it keeps the JSON file just created and potentially other VSCode settings.  
+6. You can now run your code in the debugger. Switch to the editor tab contains your program and press the green triangular button or, alternatively, press F5.
+7. Note that when your program finishes execution the debugger is still active. You can stop it by pressing the square red button.  
+
+If you do not really need to debug your program (e.g., by placing breakpoints) etc, you may prefer to run your program in a terminal window. You can open an Integrated Terminal as explained earlier and type:  
+  
+```
+node prog.js
+```
+
+Replace `prog.js` with the actual file name of your program.
+
+### Placing break points and inspecting variables
+
+This is covered in class.
+
+### Further information
+
+Please note that VSCode is actively being developed. At present there is a monthly release cycle, so don't be surprised when you are prompted once a month to update to the latest version. I would advise to update when prompted (naturally, not when you are in the middle something that you don't want interrupted).
+
+You can find detailed information about VSCode at the [VSCode web site](https://code.visualstudio.com/docs).
