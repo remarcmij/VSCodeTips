@@ -6,7 +6,7 @@ Here are some tips for getting up to speed with VSCode as you progress through t
 
 VSCode can be extended with _extensions_. There are two that I recommend you install from day 1.  
   
-**Spell Checker**. We fully understand that you guys sometimes have difficulty with the correct English spelling when choosing names for variables and functions in your JavaScript programs. That is nothing to be ashamed off, but why not get some help from a handy extension?
+**Spell Checker**. We fully understand that you guys sometimes have difficulty with the correct English spelling when choosing names for variables and functions in your JavaScript programs. That is nothing to be ashamed of, but why not get some help from a handy extension?
 	
 **ESLint**. This extension can check your JavaScript code for obvious errors, such as undefined variables, unused variables, etc.
 	
@@ -49,7 +49,7 @@ From the menu, select **View**, **Command Palette…** and type `create` as show
 
 ![Figure 3. Create '.eslintrc.json' File](https://user-images.githubusercontent.com/2788771/27809404-94afa762-604f-11e7-9d77-0d590bfccc19.png)
 
-The `.eslintrc.json` file will now be created in the project folder. 
+The `.eslintrc.json` file will now be created in the project folder. No need to touch this file at this time, it just needs to sit in your project folder. Later in the course you may wish to add additional "rules" to this file for more stringent code checking.
 
 ## Creating your first JavaScript file
 
