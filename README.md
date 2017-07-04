@@ -14,7 +14,7 @@ VSCode can be extended with _extensions_. There are two that I recommend you ins
 	
 1. Start up VSCode.
 2. Press the last button in the left margin (looks like a square in  a square and when you hover your mouse over it, it should say "Extensions".)
-3. In the input field in the upper left corner, type `code spellchecker` as shown in Figure 1 below:
+3. In the input field in the upper left corner, type `code spellchecker` as shown in the figure below:
 
 	![Figure 1. Spell checker extension](https://user-images.githubusercontent.com/2788771/27807986-f1f76762-6044-11e7-831d-dd2a6551f027.PNG)
 
@@ -85,7 +85,7 @@ Here are some short-cut commands that I use many times a day and that I recommen
 - **Search**. Search for specified text.
 - **Replace**. Replace specified text by some other text.
 	
-	In Figure 5 below the **Replace** pop-up window is shown. The **Search** pop-up is similar, but with one input field only.
+	In the figure below the **Replace** pop-up window is shown. The **Search** pop-up is similar, but with one input field only.
 	
 	![Figure 5. Search and Replace](https://user-images.githubusercontent.com/2788771/27810425-592063d4-605a-11e7-9e29-dfb02f1aed22.png)
 
