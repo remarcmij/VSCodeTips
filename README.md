@@ -13,8 +13,10 @@ VSCode can be extended with _extensions_. There are two that I recommend you ins
 ### Installation instructions
 	
 1. Start up VSCode.
+
 2. Press the last button in the area in left margin (called the Activity Bar), as shown below:  
 	<br />![extensions-btn](https://user-images.githubusercontent.com/2788771/27857540-5db15d4a-6172-11e7-953f-347c592b4e4f.png)
+
 3. In the input field in the upper left corner, type `code spellchecker` as shown in the figure below:
 
 	![Figure 1. Spell checker extension](https://user-images.githubusercontent.com/2788771/27807986-f1f76762-6044-11e7-831d-dd2a6551f027.PNG)
@@ -52,7 +54,7 @@ From the menu, select **View**, **Command Palette…** and type `create` as show
 
 The `.eslintrc.json` file will now be created in the project folder. No need to touch this file at this time, it just needs to sit in your project folder. Later in the course you may wish to add additional "rules" to this file for more stringent code checking.
 
-## Creating your first JavaScript file
+## Creating your JavaScript file
 
 You are now ready to start adding your first JavaScript file.
 
@@ -73,15 +75,15 @@ Here are some short-cut commands that I use many times a day and that I recommen
 
 | Operation | Windows | Mac   | Linux |
 | --------- | ------- | ----- | ----- |
-| Format Document | Shift‑Alt‑F | ⇧⌥F| Ctrl‑Shift‑I |
-| Search | Ctrl+F | ⌘F | Ctrl+F |
-| Replace | Ctrl+H | ⌥⌘F | Ctrl+H |
-| Rename symbol | F2 | F2 | F2 |
-| Open a terminal window | Ctrl+' | ⌃\` | Ctrl+' |
+| Format Document (make it pretty) | Shift‑Alt‑F | ⇧⌥F| Ctrl‑Shift‑I |
+| Search (Find)| Ctrl+F | ⌘F | Ctrl+F |
+| Replace (Find and replace) | Ctrl+H | ⌥⌘F | Ctrl+H |
+| Rename symbol (change all names in file to a different name) | F2 | F2 | F2 |
+| Open an integrated terminal window in VSCode  | Ctrl+' | ⌃\` | Ctrl+' |
 
 - **Format Document**. This command reformats your JavaScript file in a generally accepted standard format, using proper indenting, proper use of spaces, placing of curly braces and more. A neatly formatted document helps you to better understand your own code and your teachers, mentors and fellow students will love your for it too when they review your work.
 
-	*With VSCode at your finger tips there is no longer any excuse for submitting sloppy formatted homework!*
+	*With VSCode at your finger tips there is no longer any excuse for submitting poorly formatted homework!*
 	
 - **Search**. Search for specified text.
 - **Replace**. Replace specified text by some other text.
@@ -143,7 +145,9 @@ If your JavaScript program is contained in a single file the easiest way to run 
 6. You can now run your code in the debugger. Switch to the editor tab contains your program and press the green triangular button or, alternatively, press F5.
 7. Note that when your program finishes execution the debugger is still active. You can stop it by pressing the square red button.  
 
-If you do not really need to debug your program (e.g., by placing breakpoints) etc, you may prefer to run your program in a terminal window. You can open an Integrated Terminal as explained earlier and type:  
+If you do not really need to debug your program (e.g., by placing breakpoints) etc, you may prefer to run your program in a terminal window. You can open an Integrated Terminal as explained earlier and type: 
+
+Make sure you in the same directory as the program you want to run.
   
 ```
 node prog.js
