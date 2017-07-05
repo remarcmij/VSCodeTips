@@ -13,7 +13,10 @@ VSCode can be extended with _extensions_. There are two that I recommend you ins
 ### Installation instructions
 	
 1. Start up VSCode.
-2. Press the last button in the left margin (looks like a square in  a square and when you hover your mouse over it, it should say "Extensions".) PUT IMAGE HERE 
+
+2. Press the last button in the area in left margin (called the Activity Bar), as shown below:  
+	<br />![extensions-btn](https://user-images.githubusercontent.com/2788771/27857540-5db15d4a-6172-11e7-953f-347c592b4e4f.png)
+
 3. In the input field in the upper left corner, type `code spellchecker` as shown in the figure below:
 
 	![Figure 1. Spell checker extension](https://user-images.githubusercontent.com/2788771/27807986-f1f76762-6044-11e7-831d-dd2a6551f027.PNG)
