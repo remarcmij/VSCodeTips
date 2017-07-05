@@ -14,10 +14,10 @@ VSCode can be extended with _extensions_. There are two that I recommend you ins
 	
 1. Start up VSCode.
 
-2. Press the last button in the area in left margin (called the Activity Bar), as shown below:  
+2. Press the last button in the area in left margin (called the Activity Bar), shown below:  
 	<br />![extensions-btn](https://user-images.githubusercontent.com/2788771/27857540-5db15d4a-6172-11e7-953f-347c592b4e4f.png)
 
-3. In the input field in the upper left corner, type `code spellchecker` as shown in the figure below:
+3. In the input field in the upper left corner, type `code spellchecker` as pictured here:
 
 	![Figure 1. Spell checker extension](https://user-images.githubusercontent.com/2788771/27807986-f1f76762-6044-11e7-831d-dd2a6551f027.PNG)
 
@@ -61,7 +61,7 @@ You are now ready to start adding your first JavaScript file.
 1. From the menu, select **File**, **New File**. This will create a new, empty file named "Untitled-1".
 2. Select **File**, **Save** from the menu and give your file a an appropriate name. Make sure that you give it an extension ".js" to make it a JavaScript file.
 3. Start entering your JavaScript code in the new file. Be on the watch out for green squirly underlines. These are warnings from either ESLint or the Spell Checker that something might be wrong.
-4. If you see green squirly underlines, hover your mouse pointer over the underlined text and a tooltip will occur that explains what might be wrong.
+4. If you see green squirly underlines, hover your mouse pointer over the underlined text and a tooltip will appear that explains what might be wrong.
 5. You can also open the "problem" panel by selecting **View**, **Problems** from the menu to see any problems identified.
 6. Pay attention also to the lower left part of the VSCode window, i.e. the status bar. It gives an indication of the number of errors and warnings issued. In the picture below there are zero errors, 7 warnings (usually from ESLint) and 14 informational messages (usually from the spell checker).
 
@@ -75,11 +75,11 @@ Here are some short-cut commands that I use many times a day and that I recommen
 
 | Operation | Windows | Mac   | Linux |
 | --------- | ------- | ----- | ----- |
-| Format Document (make it pretty) | Shift‑Alt‑F | ⇧⌥F| Ctrl‑Shift‑I |
-| Search (Find)| Ctrl+F | ⌘F | Ctrl+F |
-| Replace (Find and replace) | Ctrl+H | ⌥⌘F | Ctrl+H |
-| Rename symbol (change all names in file to a different name) | F2 | F2 | F2 |
-| Open an integrated terminal window in VSCode  | Ctrl+' | ⌃\` | Ctrl+' |
+| **Format Document** (make it pretty) | Shift‑Alt‑F | ⇧⌥F| Ctrl‑Shift‑I |
+| **Search** (Find)| Ctrl+F | ⌘F | Ctrl+F |
+| **Replace** (Find and replace) | Ctrl+H | ⌥⌘F | Ctrl+H |
+| **Rename Symbol** (change all names in file to a different name) | F2 | F2 | F2 |
+| Open an **Integrated Terminal** window in VSCode  | Ctrl+' | ⌃\` | Ctrl+' |
 
 - **Format Document**. This command reformats your JavaScript file in a generally accepted standard format, using proper indenting, proper use of spaces, placing of curly braces and more. A neatly formatted document helps you to better understand your own code and your teachers, mentors and fellow students will love your for it too when they review your work.
 
@@ -102,7 +102,7 @@ Here are some short-cut commands that I use many times a day and that I recommen
 
 - **Rename Symbol**. This command renames all occurrences of a JavaScript variable or function name. To do so, move the text cursor to the variable or function name and press F2. A small pop-up window will appear in which you can type a new name. Press Enter to finalise the change or Esc to cancel it.
 
-- **Open a terminal window**. We already covered this when we mentioned the **View**, **Integrated Terminal** menu command.
+- **Open an Integrated Terminal window**. We already covered this when we mentioned the **View**, **Integrated Terminal** menu command.
 
 ## Running and debugging your code with the VSCode Node debugger
 
@@ -147,13 +147,14 @@ If your JavaScript program is contained in a single file the easiest way to run 
 
 If you do not really need to debug your program (e.g., by placing breakpoints) etc, you may prefer to run your program in a terminal window. You can open an Integrated Terminal as explained earlier and type: 
 
-Make sure you in the same directory as the program you want to run.
-  
 ```
 node prog.js
 ```
 
 Replace `prog.js` with the actual file name of your program.
+
+If you want to run your program in terminal window independent of VSCode you should make sure you are in the same directory as the program you want to run.
+  
 
 ### Placing break points and inspecting variables
 
