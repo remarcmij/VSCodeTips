@@ -30,11 +30,12 @@ VSCode can be extended with _extensions_. There are two that I recommend you ins
 	
 6. When this second extension has finished installing you will notice that the green `install` button changes to a blue `reload` button. But no need to press this button at this time (no harm done if you did).
 7. You now need to install a global Node package to support ESLint. Open a terminal window in VSCode by selecting **View**, **Integrated Terminal** from the menu bar.
-8. A terminal window opens in the lower half of the VSCode window. In this window, type:  
+8. A terminal window opens in the lower half of the VSCode window. In this window, type the command below (on Linux and MacOS systems you may need to prefix this command with `sudo`, e.g. `sudo npm ...`):
 
 	```
 	npm install -g eslint
 	```
+
 
 9. Once the installation has finished close VSCode for now.
 
